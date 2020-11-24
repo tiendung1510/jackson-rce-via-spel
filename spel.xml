@@ -13,6 +13,6 @@
             <value>https://pastebin.com/api/api_post.php</value>
         </array>
     </constructor-arg>
-     <property name="whatever" value="#{ pb.start() }"/>
+     <property name="any" value="#{ pb.start() }"/>
   </bean>
 </beans>
