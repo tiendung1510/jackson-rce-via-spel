@@ -10,7 +10,7 @@
             <value>curl </value>
             <value>-d</value>
             <value>api_dev_key=XSmWtTj6kCM2FLcwHZyvARd5WpB_RrIY&#38;api_paste_code=123&#38;api_option=paste&#38;api_paste_private=0&#38;api_user_key=e6807aba10120c035f8a12b666b85760&#38;api_paste_name=dojackson</value>
-            <value>https://pastebin.com/api/api_post.php</value>
+            <value>http://pastebin.com/api/api_post.php</value>
         </array>
     </constructor-arg>
      <property name="any" value="#{ pb.start() }"/>
